@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercise/Exercise.iml" filepath="$PROJECT_DIR$/Exercise/Exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hammerhead.iml" filepath="$PROJECT_DIR$/Hammerhead.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Training/Training.iml" filepath="$PROJECT_DIR$/Training/Training.iml" />
+    </modules>
+  </component>
+</project>

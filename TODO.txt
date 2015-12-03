@@ -1,0 +1,1 @@
+TODO SELECT exercises.DE, muscles.DE FROM `exercises`, `exercise_muscles`, `muscles` WHERE exercises.TARGET_MUSCLES = exercise_muscles.exercise AND exercise_muscles.muscle = muscles.ID

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <entry>
+        <col key="id" type="guid">b5a27e00-27da-323f-b17c-abca0904c56b</col>
+        <col key="de" type="lang">Deltamuskel</col>
+        <col key="en" type="lang">Deltoid muscle</col>
+        <col key="musclegroup" type="guid">13868f1b-5ec9-3c1f-a46b-ca44e2853c7f</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">9b4c3dbd-71db-3b29-977e-017523309c54</col>
+        <col key="de" type="lang">Knorrenmuskel</col>
+        <col key="en" type="lang">Anconeus muscle</col>
+        <col key="musclegroup" type="guid">22fa4b83-252c-36e9-8e97-191c31aefaf8</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">d524f8b9-4fda-315e-a1a9-0f8356b3796b</col>
+        <col key="de" type="lang">Vorderer Sägemuskel</col>
+        <col key="en" type="lang">Serratus anterior muscle</col>
+        <col key="musclegroup" type="guid">13868f1b-5ec9-3c1f-a46b-ca44e2853c7f</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">4c9f5428-7673-34ea-bcf5-fd15b1b8944f</col>
+        <col key="de" type="lang">Großer Brustmuskel</col>
+        <col key="en" type="lang">Pectoralis major muscle</col>
+        <col key="musclegroup" type="guid">db13aaf4-5d62-34f8-b524-638a50d9eae7</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">43158aea-4fe3-3b21-9e0b-938e09df694a</col>
+        <col key="de" type="lang">Trizeps</col>
+        <col key="en" type="lang">Triceps</col>
+        <col key="musclegroup" type="guid">22fa4b83-252c-36e9-8e97-191c31aefaf8</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">d7c12375-6dbe-31e8-bcac-e5a4a8d7d665</col>
+        <col key="de" type="lang">Kapuzenmuskel</col>
+        <col key="en" type="lang">Trapezius muscle</col>
+        <col key="musclegroup" type="guid">f013b702-26df-36f3-a3e3-8ab25c6ae728</col>
+    </entry>
+</data>

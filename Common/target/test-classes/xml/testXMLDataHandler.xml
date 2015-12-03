@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <entry>
+        <col key="id" type="guid">23630eb4-1909-3258-9927-41c49f643991</col>
+        <col key="de" type="lang">Bauch</col>
+        <col key="en" type="lang">Abdomen</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">22fa4b83-252c-36e9-8e97-191c31aefaf8</col>
+        <col key="de" type="lang">Arme</col>
+        <col key="en" type="lang">Arms</col>
+    </entry>
+</data>

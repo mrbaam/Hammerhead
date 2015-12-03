@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<fx:root type="GridPane" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints vgrow="NEVER" />
+      <RowConstraints vgrow="ALWAYS" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" />
+   </columnConstraints>
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="%mainpane.menu.start">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Trainingspläne">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#onMyPlans" text="Meine Trainingspläne" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="%mainpane.menu.exercise">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#onExerciseOverview" text="%mainpane.menu.exercise.overview" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</fx:root>

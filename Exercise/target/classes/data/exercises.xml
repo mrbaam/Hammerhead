@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <entry>
+        <col key="id" type="guid">4bfac261-a2b5-3ee4-b139-62050ecc572b</col>
+        <col key="musclegroup" type="guid">db13aaf4-5d62-34f8-b524-638a50d9eae7</col>
+        <col key="custom" type="boolean">false</col>
+        <col key="target_muscles" type="guid">3ac9a808-e9bf-3e8f-9f2b-ece7d12e9c8a</col>
+        <col key="support_muscles" type="guid">fbb90231-2e25-3796-9191-3c6251d91ac7</col>
+        <col key="de" type="lang">Bankdrücken</col>
+        <col key="en" type="lang">Bench press</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">6d82578d-9bd4-37f7-a2d6-5a3040ea402a</col>
+        <col key="musclegroup" type="guid">db13aaf4-5d62-34f8-b524-638a50d9eae7</col>
+        <col key="custom" type="boolean">false</col>
+        <col key="target_muscles" type="guid">b03b5a57-a1ec-307b-b283-a3bc72cfad37</col>
+        <col key="support_muscles" type="guid">dc01c572-8c76-38d3-b69f-2fabcf4cba64</col>
+        <col key="de" type="lang">Butterfly</col>
+        <col key="en" type="lang">Chest Fly</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">19e521a6-6b10-3fae-b7bf-d0b45fa05167</col>
+        <col key="musclegroup" type="guid">db13aaf4-5d62-34f8-b524-638a50d9eae7</col>
+        <col key="custom" type="boolean">false</col>
+        <col key="target_muscles" type="guid">3ac9a808-e9bf-3e8f-9f2b-ece7d12e9c8a</col>
+        <col key="support_muscles" type="guid">fe5c1849-cc92-3eb2-9e2f-eae39918ddb7</col>
+        <col key="de" type="lang">Schrägbankdrücken mit Kurzhanteln</col>
+        <col key="en" type="lang">Incline Dumbbell Bench Press</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">f9e75537-c343-3823-9790-f99e3a94a9e2</col>
+        <col key="musclegroup" type="guid">13868f1b-5ec9-3c1f-a46b-ca44e2853c7f</col>
+        <col key="custom" type="boolean">false</col>
+        <col key="target_muscles" type="guid">a32c5289-5d09-361a-a6ac-ec48c863706c</col>
+        <col key="support_muscles" type="guid">9fc53585-b847-3d63-a4f2-0c6b1518d5b7</col>
+        <col key="de" type="lang">Kurzhantel-Schulterdrücken</col>
+        <col key="en" type="lang">Dumbbell Military Press</col>
+    </entry>
+</data>

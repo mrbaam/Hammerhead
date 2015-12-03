@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <entry>
+        <col key="id" type="guid">23630eb4-1909-3258-9927-41c49f643991</col>
+        <col key="de" type="lang">Bauch</col>
+        <col key="en" type="lang">Abdomen</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">22fa4b83-252c-36e9-8e97-191c31aefaf8</col>
+        <col key="de" type="lang">Arme</col>
+        <col key="en" type="lang">Arms</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">13868f1b-5ec9-3c1f-a46b-ca44e2853c7f</col>
+        <col key="de" type="lang">Schultern</col>
+        <col key="en" type="lang">Shoulders</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">b8bae197-b4f0-3da6-99c5-af773382137a</col>
+        <col key="de" type="lang">Beine</col>
+        <col key="en" type="lang">Legs</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">db13aaf4-5d62-34f8-b524-638a50d9eae7</col>
+        <col key="de" type="lang">Brust</col>
+        <col key="en" type="lang">Chest</col>
+    </entry>
+    <entry>
+        <col key="id" type="guid">f013b702-26df-36f3-a3e3-8ab25c6ae728</col>
+        <col key="de" type="lang">Rücken</col>
+        <col key="en" type="lang">Back</col>
+    </entry>
+</data>
