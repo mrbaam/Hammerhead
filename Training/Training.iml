@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dialogs" level="project" />
     <orderEntry type="module" module-name="Database" />
     <orderEntry type="module" module-name="Common" />
-    <orderEntry type="library" name="Dialogs" level="project" />
   </component>
 </module>
