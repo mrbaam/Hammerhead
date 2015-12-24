@@ -30,14 +30,17 @@ public class PlanOverviewPane extends AbstractGridPane {
         final List<AbstractDialogPane> panes;
         final PlanEditPaneModel model;
         final PlanEditGeneralPane generalPane;
+        final PlanEditDaysOverviewPane overviewPane;
         final Dimension2D dimension;
 
         panes       = new ArrayList<>();
         model       = new PlanEditPaneModel(new Object());
         generalPane = new PlanEditGeneralPane(model, "Allgemein", "Füge allgemeine Informationen zum Trainingsplan hinzu");
+        overviewPane = new PlanEditDaysOverviewPane(model, "Trainingstage", "Definiere deine Trainingstage");
         dimension   = new Dimension2D(400, 400);
 
         panes.add(generalPane);
+        panes.add(overviewPane);
 
         if (WizardFactory.createInstance(panes).createAndShowWizard(dimension, Modality.APPLICATION_MODAL)) {
 

@@ -2,6 +2,8 @@ package de.fmk.hammerhead.training.ui;
 
 import de.fmk.dialogs.dialog.AbstractDialogPane;
 import de.fmk.dialogs.dialog.model.AbstractDialogPaneModel;
+import de.fmk.hammerhead.training.model.PlanEditPaneModel;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.DatePicker;
@@ -21,7 +23,7 @@ public class PlanEditGeneralPane extends AbstractDialogPane<Object> {
     private TextField nameField;
 
 
-    public PlanEditGeneralPane(AbstractDialogPaneModel<Object> paneModel, String title, String subtitle) {
+    public PlanEditGeneralPane(PlanEditPaneModel paneModel, String title, String subtitle) {
         super(PlanEditGeneralPane.class.getResource("/fxml/PlanEditGeneralPane.fxml"), paneModel);
 
         setTitle(title);
@@ -30,7 +32,7 @@ public class PlanEditGeneralPane extends AbstractDialogPane<Object> {
 
     @Override
     public void bindStorable() {
-
+        storable.bind(new SimpleBooleanProperty(true));
     }
 
     @Override

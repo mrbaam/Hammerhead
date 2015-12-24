@@ -3,6 +3,7 @@ package de.fmk.hammerhead.exercise.ui;
 import de.fmk.dialogs.dialog.AbstractDialogPane;
 import de.fmk.dialogs.dialog.model.AbstractDialogPaneModel;
 import de.fmk.hammerhead.exercise.data.Exercise;
+import de.fmk.hammerhead.exercise.model.ExerciseEditPaneModel;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
@@ -16,7 +17,7 @@ public class ExerciseEditGeneralPane extends AbstractDialogPane<Exercise> {
     private TextField nameField;
 
 
-    public ExerciseEditGeneralPane(AbstractDialogPaneModel<Exercise> paneModel, String title, String subtitle) {
+    public ExerciseEditGeneralPane(ExerciseEditPaneModel paneModel, String title, String subtitle) {
         super(ExerciseEditGeneralPane.class.getResource("/fxml/ExerciseEditGeneralPane.fxml"), paneModel);
 
         setTitle(title);
